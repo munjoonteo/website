@@ -1,6 +1,6 @@
 import React from "react"
 
-function Bio() {
+export default function Bio() {
   return (
     <div>
       <div>
@@ -15,5 +15,3 @@ function Bio() {
     </div>
   )
 }
-
-export default Bio
