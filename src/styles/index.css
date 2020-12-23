@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 60px;
+  color: #334271;
+}
+
+.subheading {
+  font-size: 24px;
+  color: #7798ff;
+}

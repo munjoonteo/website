@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
+import "../styles/layout.css"
 
 export default function Layout({ children }) {
   return (
