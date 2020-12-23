@@ -1,21 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
-import "../styles/layout.css"
+import styles from "../styles/layout.module.css"
 
 export default function Layout({ children }) {
   return (
-    <div className="app">
+    <div className={styles.app}>
       <Helmet bodyAttributes={{ style: "background-color: #e5e5e5" }}>
         <title>Mun Joon Teo</title>
       </Helmet>
-      <div className="header">
-        <div className="links">
+      <div className={styles.header}>
+        <div className={styles.links}>
           <Link to="/">Home</Link>
           <Link to="/contact/">Contact</Link>
         </div>
       </div>
-      <div className="body">{children}</div>
+      <div>{children}</div>
     </div>
   )
 }

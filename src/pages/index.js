@@ -2,19 +2,20 @@ import React from "react"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Socials from "../components/socials"
-import "../styles/index.css"
+import Projects from "../components/projects"
+import styles from "../styles/index.module.css"
 
 export default function Home() {
   return (
     <Layout>
-      <div className="main">
-        <div className="heading">Mun Joon Teo</div>
-        <div className="subheading">
-          Software engineering student and musician
-          <br />
+      <div className={styles.main}>
+        <div className={styles.heading}>Mun Joon Teo</div>
+        <div className={styles.subheading}>
+          Software engineering student and musician{"\n"}
         </div>
         <Bio />
         <Socials />
+        <Projects />
       </div>
     </Layout>
   )
