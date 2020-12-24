@@ -65,9 +65,7 @@ export default function Projects() {
   return (
     <div>
       <div className={styles.heading}>My Projects</div>
-      <div className={styles.projects}>
-        <div>{cards}</div>
-      </div>
+      <div className={styles.projects}>{cards}</div>
     </div>
   )
 }
