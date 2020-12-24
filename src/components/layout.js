@@ -6,7 +6,7 @@ import styles from "../styles/layout.module.css"
 export default function Layout({ children }) {
   return (
     <div className={styles.app}>
-      <Helmet bodyAttributes={{ style: "background-color: #e5e5e5" }}>
+      <Helmet bodyAttributes={{ style: "background-color: #f2f5ff" }}>
         <title>Mun Joon Teo</title>
       </Helmet>
       <div className={styles.header}>
