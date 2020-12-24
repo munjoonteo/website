@@ -78,34 +78,49 @@ export default function Contact() {
           I'm always interested in making new things!{"\n"}Let's talk!
         </div>
         <form className={cardStyles.card}>
-          <label className={cardStyles.field_name}>
-            name
-            <input
+          <div className={cardStyles.field_group}>
+            <div className={cardStyles.field_name}>name</div>
+            <textarea
               type="text"
               name="name"
               value={data.name}
               onChange={handleChange}
+              className={cardStyles.textbox}
+              wrap="off"
             />
-          </label>
-          <label className={cardStyles.field_name}>
-            email
-            <input
+          </div>
+          <div className={cardStyles.field_group}>
+            <div className={cardStyles.field_name}>email</div>
+            <textarea
               type="text"
               name="email"
               value={data.email}
               onChange={handleChange}
+              className={cardStyles.textbox}
+              wrap="off"
             />
-          </label>
-          <label className={cardStyles.field_name}>
-            message
-            <input
+          </div>
+          <div className={cardStyles.field_group}>
+            <div className={cardStyles.field_name}>message</div>
+            <textarea
               type="text"
               name="message"
               value={data.message}
               onChange={handleChange}
+              className={`${cardStyles.message} ${cardStyles.textbox}`}
             />
-          </label>
-          <button onClick={formSubmit}>{data.buttonText}</button>
+          </div>
+          <div className={cardStyles.button_container}>
+            <div
+              role="button"
+              tabIndex="0"
+              className={cardStyles.button}
+              onClick={formSubmit}
+              onKeyDown={formSubmit}
+            >
+              {data.buttonText}
+            </div>
+          </div>
         </form>
       </div>
     </Layout>
