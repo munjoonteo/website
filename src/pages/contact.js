@@ -15,11 +15,20 @@ export default function Contact() {
         <div className={headerStyles.subheading}>
           I'm always interested in making new things!{"\n"}Let's talk!
         </div>
-        <div className={cardStyles.card}>
-          <div className={cardStyles.field_name}>name</div>
-          <div className={cardStyles.field_name}>email</div>
-          <div className={cardStyles.field_name}>message</div>
-        </div>
+        <form className={cardStyles.card}>
+          <label className={cardStyles.field_name}>
+            name
+            <input type="text" />
+          </label>
+          <label className={cardStyles.field_name}>
+            email
+            <input type="text" />
+          </label>
+          <label className={cardStyles.field_name}>
+            message
+            <input type="text" />
+          </label>
+        </form>
       </div>
     </Layout>
   )
