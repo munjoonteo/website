@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid #7798ff;
+  border-radius: 50px;
+  margin: 5% 15% 5% 15%;
+  padding: 2rem;
+  font-size: 15px;
+  box-shadow: 5px 5px 0px 5px #7798ff;
+}
+
+.field_name {
+  font-size: 20px;
+  color: #334271;
+}
