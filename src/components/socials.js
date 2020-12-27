@@ -11,13 +11,16 @@ export default function Socials() {
     "https://api.onedrive.com/v1.0/shares/u!" + base64value + "/root/content"
   return (
     <div className={styles.socials}>
-      <a href={resumeLink}>
+      <a className={styles.link} href={resumeLink}>
         <FontAwesomeIcon icon={faFileAlt} /> Resume
       </a>
-      <a href="https://github.com/munjoonteo">
+      <a className={styles.link} href="https://github.com/munjoonteo">
         <FontAwesomeIcon icon={faGithub} /> Github
       </a>
-      <a href="https://www.linkedin.com/in/mun-joon-teo-850586195/">
+      <a
+        className={styles.link}
+        href="https://www.linkedin.com/in/mun-joon-teo-850586195/"
+      >
         <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
       </a>
     </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Red+Hat+Display:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Red+Hat+Display:wght@400;700&display=swap");
 
 .app {
   margin-left: 20%;
@@ -18,8 +18,7 @@
   display: flex;
 }
 
-a {
-  display: block;
+.link {
   margin-top: 1rem;
   padding-right: 32px;
   color: #7798ff;
@@ -28,7 +27,7 @@ a {
   transition: opacity 0.15s ease-in-out;
 }
 
-a:hover,
-a:focus {
+.link:hover,
+.link:focus {
   opacity: 0.6;
 }

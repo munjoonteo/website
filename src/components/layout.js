@@ -11,8 +11,12 @@ export default function Layout({ children }) {
       </Helmet>
       <div className={styles.header}>
         <div className={styles.links}>
-          <Link to="/">Home</Link>
-          <Link to="/contact/">Contact</Link>
+          <Link className={styles.link} to="/">
+            Home
+          </Link>
+          <Link className={styles.link} to="/contact/">
+            Contact
+          </Link>
         </div>
       </div>
       <div>{children}</div>
