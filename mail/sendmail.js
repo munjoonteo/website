@@ -1,4 +1,3 @@
-const { faGlassMartiniAlt } = require("@fortawesome/free-solid-svg-icons")
 const nodemailer = require("nodemailer")
 
 exports.handler = function (event, context, callback) {
