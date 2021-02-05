@@ -24,20 +24,21 @@
 
 .title {
   font-size: 24px;
-  margin-bottom: 1rem;
   color: #334271;
-  min-height: 15%;
+  padding-bottom: 2vh;
 }
 
 .body {
   font-size: 20px;
   color: #7798ff;
   padding-bottom: 3rem;
+  flex-grow: 2;
 }
 
 .buttons {
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 1rem;
 }
 
 .button {
