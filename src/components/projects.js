@@ -7,7 +7,7 @@ const projectData = [
     desc:
       "A web app for two players to play chess with each other. Developed using vanilla Javascript and the p5 Javascript library. In the future, I will also add an AI for single-player games.",
     link: "https://github.com/munjoonteo/chess_v2",
-    try: "https://munjoonteo.github.io/chess_v2/",
+    try: "https://mj-chess.netlify.app/",
   },
   {
     title: "We’re Not Really Strangers Web",
