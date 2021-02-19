@@ -1,17 +1,15 @@
 .socials {
   display: flex;
   flex-direction: row;
-  font-size: 1.1rem;
   justify-content: space-between;
-  margin-bottom: 5%;
+  margin: 1% 0% 3%;
 }
 
 .link {
-  margin-top: 1rem;
   padding-right: 32px;
   color: #6b88e0;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 18px;
   transition: opacity 0.15s ease-in-out;
 }
 
