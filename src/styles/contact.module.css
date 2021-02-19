@@ -85,11 +85,11 @@
 
 @media only screen and (max-width: 500px) {
   .heading {
-    font-size: 52px;
+    font-size: 32px;
   }
 
   .subheading {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .card {
@@ -97,15 +97,15 @@
   }
 
   .field_name {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .textbox {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 1rem;
   }
 
   .button {
-    font-size: 16px;
+    font-size: 12px;
   }
 }

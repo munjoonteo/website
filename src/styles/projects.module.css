@@ -59,7 +59,8 @@
 
 @media only screen and (max-width: 1820px) {
   .heading {
-    font-size: 36px;
+    font-size: 24px;
+    padding-bottom: 0px;
   }
 
   .projects {
@@ -71,10 +72,14 @@
   }
 
   .title {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .body {
-    font-size: 17px;
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 10px;
   }
 }

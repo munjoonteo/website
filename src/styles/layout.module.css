@@ -39,6 +39,7 @@
   }
 
   .link {
-    font-size: 22px;
+    font-size: 14px;
+    padding-left: 30px; 
   }
 }
