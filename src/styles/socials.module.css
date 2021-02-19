@@ -9,7 +9,7 @@
 .link {
   margin-top: 1rem;
   padding-right: 32px;
-  color: #7798ff;
+  color: #4d78fa;
   text-decoration: none;
   font-size: 1.5rem;
   transition: opacity 0.15s ease-in-out;
@@ -24,5 +24,9 @@
   .socials {
     flex-direction: column;
     align-items: center;
+  }
+
+  .link {
+    font-size: 20px;
   }
 }

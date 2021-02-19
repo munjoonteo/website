@@ -3,3 +3,9 @@
   color: #7798ff;
   white-space: pre-wrap;
 }
+
+@media only screen and (max-width: 500px) {
+  .bio {
+    font-size: 20px;
+  }
+}
