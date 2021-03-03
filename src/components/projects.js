@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "../styles/projects.module.css"
+import Card from "../components/card"
 
 const projectData = [
   {
@@ -39,34 +40,9 @@ const projectData = [
   },
 ]
 
-const cards = projectData.map(project => (
-  <div className={styles.card} key={project.link}>
-    <div className={styles.title}>{project.title}</div>
-    <div className={styles.body}>{project.desc}</div>
-    <div className={styles.buttons}>
-      <div>
-        <a
-          className={styles.button}
-          href={project.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          source
-        </a>
-      </div>
-      <div>
-        <a
-          className={styles.button}
-          href={project.try}
-          target="_blank"
-          rel="noreferrer"
-        >
-          try it out!
-        </a>
-      </div>
-    </div>
-  </div>
-))
+const cards = projectData.map(project => {
+  return <Card project={project} />
+})
 
 export default function Projects() {
   return (
