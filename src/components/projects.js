@@ -25,13 +25,6 @@ const projectData = [
     try: "",
   },
   {
-    title: "Calculator",
-    desc:
-      "A simple calculator written in vanilla Javascript. Keyboard input with both the numpad and number row keys is supported.",
-    link: "https://github.com/munjoonteo/calculator/",
-    try: "https://munjoonteo.github.io/calculator/",
-  },
-  {
     title: "Mahjong Points Counter",
     desc:
       "A mobile app to keep track of the points scored by each player in a Hong Kong Mahjong game, including a history of the points scored each round. Developed using React Native and Expo.",
