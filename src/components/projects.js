@@ -22,7 +22,7 @@ const projectData = [
     desc:
       "A web app to look up Japanese words and add them to a word list, which can then be downloaded as a text file. The text file can be imported into Anki, a Spaced Repetition System (SRS). Powered by the Jisho API and written in vanilla React.",
     link: "https://github.com/munjoonteo/vocab_list",
-    try: "",
+    try: "https://japanese-vocab-list-creator.herokuapp.com/",
   },
   {
     title: "Mahjong Points Counter",
