@@ -25,6 +25,13 @@ const projectData = [
     try: "https://japanese-vocab-list-creator.herokuapp.com/",
   },
   {
+    title: "Eggodoro Pomodoro Timer",
+    desc:
+      "A Pomodoro timer with a twist! As you complete tasks, collect various eggs to show off how productive you have been. Made during Hackiethon 2021.",
+    link: "https://github.com/munjoonteo/Hackiethon-2021-DSN",
+    try: "https://hackiethon-dsn.herokuapp.com/",
+  },
+  {
     title: "Mahjong Points Counter",
     desc:
       "A mobile app to keep track of the points scored by each player in a Hong Kong Mahjong game, including a history of the points scored each round. Developed using React Native and Expo.",
