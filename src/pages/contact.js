@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import headerStyles from "../styles/index.module.css"
-import cardStyles from "../styles/contact.module.css"
+import * as headerStyles from "../styles/index.module.css"
+import * as cardStyles from "../styles/contact.module.css"
 import axios from "axios"
 
 export default function Contact() {

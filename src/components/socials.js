@@ -2,11 +2,11 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFileAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import styles from "../styles/socials.module.css"
+import * as styles from "../styles/socials.module.css"
 
 export default function Socials() {
   let sharingURl = "https://1drv.ms/b/s!AgAjGo-4bxIrga8hc7rzbuZwrK1hng"
-  let base64value = Buffer.from(sharingURl).toString("base64")
+  let base64value = window.btoa(sharingURl)
   let resumeLink =
     "https://api.onedrive.com/v1.0/shares/u!" + base64value + "/root/content"
   return (

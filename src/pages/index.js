@@ -3,7 +3,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Socials from "../components/socials"
 import Projects from "../components/projects"
-import styles from "../styles/index.module.css"
+import * as styles from "../styles/index.module.css"
 
 export default function Home() {
   return (
