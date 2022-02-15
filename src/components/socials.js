@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import styles from "../styles/socials.module.css"
 
 export default function Socials() {
-  let sharingURl = "https://1drv.ms/b/s!AgAjGo-4bxIrxXnrZ-W3Z3kjVsD2?e=corKHM"
+  let sharingURl = "https://1drv.ms/b/s!AgAjGo-4bxIrga8hc7rzbuZwrK1hng"
   let base64value = Buffer.from(sharingURl).toString("base64")
   let resumeLink =
     "https://api.onedrive.com/v1.0/shares/u!" + base64value + "/root/content"
