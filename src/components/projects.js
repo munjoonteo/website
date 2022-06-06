@@ -4,11 +4,11 @@ import Card from "../components/card"
 
 const projectData = [
   {
-    title: "Interactive Chess Game",
+    title: "Japanese Vocabulary List Builder",
     desc:
-      "A web app for two players to play chess with each other. Developed using vanilla Javascript and the p5 Javascript library. In the future, I will also add an AI for single-player games.",
-    link: "https://github.com/munjoonteo/chess_v2",
-    try: "https://mj-chess.netlify.app/",
+      "A web app to look up Japanese words and add them to a word list, which can then be downloaded as a text file. The text file can be imported into Anki, a Spaced Repetition System (SRS). Powered by the Jisho API and written in vanilla React.",
+    link: "https://github.com/munjoonteo/vocab_list",
+    try: "https://japanese-vocab-list-creator.herokuapp.com/",
   },
   {
     title: "We’re Not Really Strangers Web",
@@ -18,11 +18,11 @@ const projectData = [
     try: "https://munjoonteo.github.io/wnrs/",
   },
   {
-    title: "Japanese Vocabulary List Builder",
+    title: "Interactive Chess Game",
     desc:
-      "A web app to look up Japanese words and add them to a word list, which can then be downloaded as a text file. The text file can be imported into Anki, a Spaced Repetition System (SRS). Powered by the Jisho API and written in vanilla React.",
-    link: "https://github.com/munjoonteo/vocab_list",
-    try: "https://japanese-vocab-list-creator.herokuapp.com/",
+      "A web app for two players to play chess with each other. Developed using vanilla Javascript and the p5 Javascript library. In the future, I will also add an AI for single-player games.",
+    link: "https://github.com/munjoonteo/chess_v2",
+    try: "https://mj-chess.netlify.app/",
   },
   {
     title: "Eggodoro Pomodoro Timer",
