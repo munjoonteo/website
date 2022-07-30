@@ -5,10 +5,8 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import * as styles from "../styles/socials.module.css"
 
 export default function Socials() {
-  let sharingURl = "https://1drv.ms/b/s!AgAjGo-4bxIrga8hc7rzbuZwrK1hng"
-  let base64value = btoa(sharingURl)
   let resumeLink =
-    "https://api.onedrive.com/v1.0/shares/u!" + base64value + "/root/content"
+    "https://drive.google.com/uc?export=download&id=1cMp19NxyTZMvwTuKrVep2xuXxPdaANhd"
   return (
     <div className={styles.socials}>
       <a className={styles.link} href={resumeLink}>
