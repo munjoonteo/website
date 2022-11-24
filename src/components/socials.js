@@ -6,7 +6,8 @@ import * as styles from "../styles/socials.module.css"
 
 export default function Socials() {
   let resumeLink =
-    "https://drive.google.com/uc?export=download&id=1cMp19NxyTZMvwTuKrVep2xuXxPdaANhd"
+    "https://drive.google.com/uc?export=download&id=1Zhhsg-H7Jq7GCKNrAEL_wQrTT2sGittp"
+
   return (
     <div className={styles.socials}>
       <a className={styles.link} href={resumeLink}>
