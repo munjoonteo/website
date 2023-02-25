@@ -8,7 +8,7 @@ const projectData = [
     desc:
       "A web app to look up Japanese words and add them to a word list, which can then be downloaded as a text file. The text file can be imported into Anki, a Spaced Repetition System (SRS). Powered by the Jisho API and written in vanilla React.",
     link: "https://github.com/munjoonteo/vocab_list",
-    try: "https://japanese-vocab-list-creator.herokuapp.com/",
+    try: "https://japanese-vocab-list-creator.netlify.app/",
   },
   {
     title: "We’re Not Really Strangers Web",
@@ -29,13 +29,6 @@ const projectData = [
     desc:
       "A Pomodoro timer with a twist! As you complete tasks, collect various eggs to show off how productive you have been. Made during Hackiethon 2021.",
     link: "https://github.com/munjoonteo/Hackiethon-2021-DSN",
-    try: "https://hackiethon-dsn.herokuapp.com/",
-  },
-  {
-    title: "Mahjong Points Counter",
-    desc:
-      "A mobile app to keep track of the points scored by each player in a Hong Kong Mahjong game, including a history of the points scored each round. Developed using React Native and Expo.",
-    link: "https://github.com/munjoonteo/mahjong",
     try: "",
   },
 ]
